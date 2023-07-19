@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Work+Sans:wght@400;600;700;800&display=swap');
+
+* {
+    font-family: font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    ;
+}
+
+header {
+    padding: 30px 100px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+
+
+}
+
+.heads {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gamer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#gameimg {
+    width: 86px;
+    height: 40px;
+    padding: 44px 0px 45px 50px;
+}
+
+.game-title {
+    color: #0B0223;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+
+.gameg {
+    color: #F948B2;
+}
+
+.nav-ul {
+    list-style: none;
+    justify-items: center;
+    justify-content: space-between;
+}
+
+.nav-li {
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.utube {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    align-items: center;
+    gap: 10px;
+    /* padding: 37px 50 37px 0px; */
+}
+.tiktok{
+    display: flex;
+}
+
+/* .navlist{ */
+display: flex;
+/* justify-content: space-between; */
