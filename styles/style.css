@@ -238,9 +238,6 @@ header {
     width: 342px;
 }
 
-
-
-
 .Play-instantly {
     display: flex;
     gap: 20px;
@@ -386,48 +383,24 @@ header {
 }
 
 @media screen and (max-width:576px) {
-    .gamer img {
-        /* flex-direction: column; */
-        justify-content: center;
-        width: 868px;
-        height: 489px;
-
+    .heads {
+        flex-direction: column;
     }
 
-    .gamer-container {
-        margin-right: 0px;
+    .banner {
+        flex-direction: column-reverse;
+        padding-top: 10px;
+    }
+
+    .ongame {
+        flex-direction: column;
+    }
+
+    .Play-instantly {
+        flex-direction: column;
         margin-left: 0px;
-        padding: 100px 300px 240px 300px;
-        color: rgba(255, 66, 165, 0.03);
-
-        .onlineg-title {
-            color: #0B0223;
-            font-size: 48px;
-            font-weight: 700;
-        }
-
-        .funny {
-            background-color: #F948B2;
-        }
-
-        .Play-instantly {
-            flex-direction: column;
-            margin-left: 0px;
-        }
-
-        .Play-instant-content {
-            padding: 0px 0px;
-        }
-    }
-
-    @media screen and(min-width:576px) and(max-width:900px) {
-        .Play-instantly {
-            flex-direction: column;
-            margin-left: 0px;
-        }
-    }
-
-    .Play-instant-content {
-        padding: 0px 0px;
     }
 }
+
+
+@media screen and(min-width:576px) and(max-width:900px) {}
