@@ -61,9 +61,6 @@ header {
     gap: 10px;
 }
 
-.goat-img {
-    padding-bottom: 0%;
-}
 
 .gp {
     margin-top: -0.9px;
@@ -287,6 +284,48 @@ header {
     position: relative;
     bottom: 250px;
     margin: 0;
+}
+.gamesite {
+    width: 1920px;
+    height: 427px;
+    background-color: rgba(255, 66, 165, 0.03);
+    
+}
+.gamevarious {
+    display: flex;
+    margin-top: 250px;
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+}
+.game-site-d{
+    justify-content: center;
+}
+
+.gamev {
+    display: flex;
+    width: 295px;
+    height: 80px;
+    border-radius: 50px;
+    background: #FFF;
+
+}
+
+#Arcade {
+    border-radius: 50px;
+    background: #FFF;
+    border: 1px solid #F948B2;
+}
+
+.small-game-img {
+    width: 60px;
+    height: 60px;
+}
+
+.gam--p {
+    /* color: #0B0223; */
+    font-size: 20px;
+    font-weight: 600;
 }
 
 @media screen and (max-width:576px) {
